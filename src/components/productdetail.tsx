@@ -18,32 +18,32 @@ import Image from 'next/image'
 const Productdetail = () => {
   return (
     <div>
-<div className="w-[1321px] h-[461px]  mx-auto">
+<div className="h-auto mx-auto  w-[1321px]  md:h-[461px]  md:mx-auto">
   <p className="text-white text-[32px] font-medium text-center ">Featured Products</p>
-  <div className="grid grid-cols-4  gap-5">
+  <div className="grid :grid-rows-1 gap-32  md:grid-cols-4 md:gap-5">
     <div className="h-[312px] w-[312px] "><Image src={chair1} alt="chair-pic"  />
-    <div className='flex pt-5 space-x-4'>
+    <div className=' pt-5 space-x-4'>
     <p className='w-[251px] h-[51]  text-[16px] text-[#007580]'  >Library Stool Chair  <br className='text-[18px] font-bold text-black'/>$20 $39 </p>
       <Image src={cart} alt="chair-pic"   />
       </div>
 
     </div>
     <div className="h-[312px] w-[312px] "><Image src={chair2} alt="chair-pic" />
-    <div className='flex pt-5 space-x-4'>
+    <div className=' pt-5 space-x-4'>
     <p className='w-[251px] h-[51]  text-[16px] text-[#007580]'  >Library Stool Chair  <br className='text-[18px] font-bold'/>$20 $39 </p>
       <Image src={cart} alt="chair-pic"   />
       </div>
 
     </div>
     <div className="h-[312px] w-[312px] "><Image src={chair3} alt="chair-pic" />
-    <div className='flex pt-5 space-x-4'>
+    <div className=' pt-5 space-x-4'>
     <p className='w-[251px] h-[51]  text-[16px] text-[#007580]'  >Library Stool Chair  <br className='text-[18px] font-bold'/>$20 $39 </p>
       <Image src={cart} alt="chair-pic"   />
       </div>
 
     </div>
     <div className="h-[312px] w-[312px] "><Image src={chair4} alt="chair-pic" />
-    <div className='flex pt-5 space-x-4'>
+    <div className=' pt-5 space-x-4'>
     <p className='w-[251px] h-[51]  text-[16px] text-[#007580]'  >Library Stool Chair  <br className='text-[18px] font-bold text-black'/>$20 $39 </p>
       <Image src={cart} alt="chair-pic"   />
       </div>
@@ -53,9 +53,9 @@ const Productdetail = () => {
   </div>
 </div>
 {/* 3product */}
-<div className="w-[1321px] h-[508px]  mx-auto">
+<div className="h:auto w-[1321px] md:h-[508px]  mx-auto">
   <p className="text-black text-[32px] font-medium pt-10 pb-10 text-center">Top categories</p>
-  <div className="grid grid-cols-3  gap-5">
+  <div className="grid grid-rows-1 gap-10 md:grid-cols-3  md:gap-5">
 
     <div className="h-[424px] w-[424px] ">
       
@@ -71,9 +71,9 @@ const Productdetail = () => {
 
  {/* 2nd  */}
 <div>
-<div className="w-[1321px] h-[461px]  mx-auto">
+<div className="h-auto w-[1321px] md:h-[461px]  mx-auto">
   <p className="text-black text-[32px] font-medium text-center mt-24 mb-10">Our Products</p>
-  <div className="grid grid-cols-4  gap-5">
+  <div className="grid grid-rows-1 gap-32 md:grid-cols-4 md:gap-5">
     <div className="h-[312px] w-[312px] "><Image src={chair1} alt="chair-pic"  />
     <div className='flex pt-5 space-x-4'>
     <p className='w-[251px] h-[51]  text-[16px] text-[#007580]'  >Library Stool Chair  <br className='text-[18px] font-bold text-black'/>$20 $39 </p>
@@ -109,9 +109,9 @@ const Productdetail = () => {
 
 {/* 4div again */}
 
-<div className="w-[1321px] h-[461px]  mx-auto">
+<div className="h-auto w-[1321px] md:h-[461px]  mx-auto">
   <p className="text-white text-[32px] font-medium text-center ">Featured Products</p>
-  <div className="grid grid-cols-4  gap-5">
+  <div className="grid grid-rows-1 gap-32 md:grid-cols-4  md:gap-5">
     <div className="h-[312px] w-[312px] "><Image src={bgchair1} alt="chair-pic"  />
     <div className='flex pt-5 space-x-4'>
     <p className='w-[251px] h-[51]  text-[16px] text-[#007580]'  >Library Stool Chair  <br className='text-[18px] font-bold text-black'/>$20 $39 </p>
